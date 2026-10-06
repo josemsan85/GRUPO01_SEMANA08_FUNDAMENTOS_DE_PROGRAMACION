@@ -6,5 +6,4 @@ def censurar_texto(texto, prohibidas):
     return texto_censurado
 mensaje = "Este es un texto con contenido secreto e inapropiado"
 lista_prohibida = ["secreto", "inapropiado"]
-
 print(censurar_texto(mensaje, lista_prohibida))
